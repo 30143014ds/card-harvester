@@ -1,6 +1,8 @@
-# card-harvester
+# Card harvester
 
 An AI-powered agent skill that turns videos of business cards into structured contacts, with batch extraction, recognition, deduplication, and export to Excel and vCard.
+
+https://github.com/user-attachments/assets/9a8b0f42-b63a-4996-92a0-417858fc0ecb
 
 **Film your business-card holder. Upload the video. Get Excel and VCF files.**
 
