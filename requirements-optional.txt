@@ -1,0 +1,3 @@
+# Optional QR decoding and independent VCF validation.
+zxing-cpp
+vobject

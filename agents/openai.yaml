@@ -1,0 +1,4 @@
+interface:
+  display_name: "Card Harvester"
+  short_description: "Turn business-card videos into Excel and VCF contacts"
+  default_prompt: "Use $card-harvester to process my business-card video and create or append the selected Excel workbook."

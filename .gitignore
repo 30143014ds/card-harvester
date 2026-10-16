@@ -1,0 +1,14 @@
+__pycache__/
+*.py[cod]
+.venv/
+.DS_Store
+card_library/
+original_videos/
+jobs/
+recognition/
+*.xlsx
+*.vcf
+*.mov
+*.MOV
+*.mp4
+*.avi
