@@ -27,6 +27,17 @@ An AI-powered agent skill that turns videos of business cards into structured co
    > Use Card Harvester to process this video. Create an Excel workbook with
    > linked card photos, then export all contacts and phone numbers to a VCF.
 
+   The assistant runs these steps:
+
+   1. **Script:** samples video frames and proposes initial card boundaries.
+   2. **Main agent:** reviews the scenes, identifies cards, and refines the boundaries.
+   3. **Script:** crops cards at full resolution and ranks alternative shots.
+   4. **Main agent:** checks the crops and selects the clearest shots or alternatives.
+   5. **Recognition subagent:** reads the card images and extracts contact fields.
+      The main agent handles recognition if subagents are unavailable.
+   6. **Script:** imports the recognized contacts, handles duplicates, and builds
+      the Excel workbook; reviewed contacts are then exported to VCF.
+
 3. **Get your files.** Download the Excel workbook (`.xlsx`) with structured
    contacts and a linked gallery of card photos. Import the vCard file (`.vcf`)
    into iPhone or Android contacts. Names and contact text retain their original
